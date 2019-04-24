@@ -3,7 +3,13 @@ body {
   margin: 10;
 }
 
-#map,
+#map_raw,
+body,
+html {
+  height: 600px;
+}
+
+#map_res,
 body,
 html {
   height: 600px;
