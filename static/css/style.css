@@ -7,10 +7,24 @@ body {
 body,
 html {
   height: 600px;
+  z-index: 0;
+
 }
 
 #map_res,
 body,
 html {
   height: 600px;
+  z-index: 0;
+
 }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 0;
+  padding: 10px;
+  background-color: #C8C8C8;
+  z-index: 1;
+  }
