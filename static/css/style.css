@@ -1,6 +1,6 @@
 body {
-  padding: 10;
-  margin: 10;
+  padding: 0px;
+  margin: 0px;
 }
 
 #map_raw,
@@ -8,6 +8,7 @@ body,
 html {
   height: 600px;
   z-index: 0;
+  padding: 0px;
 
 }
 
@@ -16,6 +17,7 @@ body,
 html {
   height: 600px;
   z-index: 0;
+  padding: 0px;
 
 }
 
@@ -24,7 +26,22 @@ div.sticky {
   position: sticky;
 
   top: 0;
-  padding: 10px;
+  padding: 0px;
   background-color: #C8C8C8;
   z-index: 1;
   }
+
+ #my_div,
+ {
+ 	height: 600px;
+ 	z-index: 0;
+ 	padding: 0px;
+ 	vertical-align: top;
+ }
+
+  div.my_div2,
+ {
+ 	
+ 	padding: 0px;
+ 	
+ }
