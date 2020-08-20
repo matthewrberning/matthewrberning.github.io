@@ -62,7 +62,7 @@
 
         <!-- JS  -->
         <script type="text/javascript" src="static/js/map_raw_neural_net.js"></script>
-        <h4> This map displays the predicted outcome, and prediction confidence, of the 2018 Congressional Election based on our entire data set from the US Census Bureau, the Federal Election Commission, and a data set on running candidates from Kaggal.</h4>
+        <h4> This map displays the predicted outcome (red for Republican Win, Blue for Democratic), and prediction confidence (color intensity + clickable callout by district), of the 2018 Congressional Election based on our entire data set from the US Census Bureau, the Federal Election Commission, and a data set on running candidates from Kaggal.</h4>
     </div>
     
 
@@ -85,7 +85,7 @@
     </div>
     <div id= "my_div" class="col-md-4">
       
-        <h4>This revised map shows the prediction confidence when the input is restricted to only 42 of the most important features -identified through feature importance analysis performed across many random forests.</h4>
+        <h4>This revised map again shows the predicted outcome (red for Republican Win, Blue for Democratic), and the prediction confidence (color intensity) but this time the inference was generated with a network trained on (restricted to) only the 42 most important features -identified through feature contribution-strength analysis performed across many random forests.</h4>
       
     </div>
 
